@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+       <div class="bg-image text-center">
+          <marquee behavior="" direction="" class="text-light">Boutique ouvert tous les jours</marquee>
+        <a href="#" class="btn btn-danger mt-3">Acheter</a>
+      </div> 
+      <div class="banier">
+        <button type="button" class="btn btn-warning">electroniques</button>
+        <button type="button" class="btn btn-secondary">habits</button>
+        <button type="button" class="btn btn-danger">accessoires</button>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 d-flex">
+          <div class="col">
+            <div class="card" style="width: 18rem; height: 250px; margin-left: 1%;">
+              <div class="card-header">
+                derniers articles
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">telephone</li>
+                <li class="list-group-item">ordinateur</li>
+                <li class="list-group-item">chaussure</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <video src="vid.mp4" controls muted height="250px">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="card bg-info me-3" style="width: 18rem; height: 365px;">
+            <div class="card-header text-light">
+              plus vendus
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-info text-light">An item</li>
+              <li class="list-group-item bg-info text-light">A second item</li>
+              <li class="list-group-item bg-info text-light">A third item</li>
+            </ul>
+          </div>
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <h1 class="card-title text-center text-primary">formulaire</h1>
+            <form class="ms-5">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="input-group">
+                <span class="input-group-text">With textarea</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-envoi">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

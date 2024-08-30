@@ -1,0 +1,26 @@
+.bg-image{
+    background-image: url('eCommerce-Website-Components-photo.jpg');
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+marquee{
+    font-size: 3rem;
+}
+.bg-image a{
+    width: 200px;
+    font-size: 1.5rem;
+}
+.banier{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.btn-envoi{
+    margin-left: 70%;
+    margin-top: 3%
+}
